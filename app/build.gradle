@@ -38,4 +38,10 @@ dependencies {
     implementation "androidx.room:room-ktx:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
     ksp "androidx.room:room-compiler:$room_version"
+
+    // OSMdroid para cartografía OpenStreetMap Offline
+    implementation 'org.osmdroid:osmdroid-android:6.1.20'
+
+    // Google Play Services Location (para obtener posición GPS offline del celular)
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
 }
